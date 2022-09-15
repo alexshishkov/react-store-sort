@@ -1,8 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import AboutUs from './components/AboutUs/AboutUs';
 import React from 'react';
 import Header from 'components/Header/Header';
+import AboutUs from './components/AboutUs/AboutUs';
+import PageNotFound from 'components/PageNotFound/PageNotFound';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/404" element={<PageNotFound />} />
       </Routes>
     </div>
   );

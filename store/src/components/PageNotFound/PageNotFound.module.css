@@ -1,0 +1,48 @@
+.wrapper {
+  width: 100vw;
+  min-height: 94.3vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: url(../../assets/bg.jpg);
+  background-size: 100%;
+  background-position: 0 -53px;
+}
+.text {
+  font-size: 18em;
+  color: white;
+  margin-top: 0.5em;
+  margin-right: 1.5em;
+}
+.clickHere {
+  font-size: 2em;
+  color: white;
+  margin-right: 13%;
+}
+.clickHere__text {
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+}
+@media screen and (max-width: 1200px) {
+  .text {
+    margin-top: 0.3em;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .wrapper {
+    min-height: 89vh;
+    padding-top: 50px;
+  }
+  .text {
+    font-size: 12em;
+  }
+}
+@media screen and (max-width: 400px) {
+  .text {
+    font-size: 10em;
+  }
+}
+
+
