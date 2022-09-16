@@ -1,0 +1,20 @@
+.card {
+  height: 18em;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 1em;
+  padding: 10px;
+}
+.name {
+  font-size: 30px;
+  padding-top: 13px;
+}
+.card__img {
+  width: 7em;
+  height: 7em;
+  display: block;
+  margin: 0 auto;
+}
+.card div {
+  font-size: 20px;
+}
